@@ -28,7 +28,7 @@ Shader"Custom/IceTest3"
                 #pragma vertex vertex
                 #pragma fragment fragment
                 #include "UnityCG.cginc"
-                #include "../ShaderUtilities/SeeThroughPass.hlsl"
+                #include "../ShaderUtilities/TransparentDistortionPass.hlsl"
                 ENDCG
             }
     }
